@@ -35,10 +35,10 @@ const config: HardhatUserConfig = {
     },
     hardhat: {
       initialBaseFeePerGas: 0,
-      // chainId: 1,
-      // forking: {
-      //   url: `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
-      // },
+      chainId: 4,
+      forking: {
+        url: `https://mainnet.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+      },
     },
   },
   etherscan: {
